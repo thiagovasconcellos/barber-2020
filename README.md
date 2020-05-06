@@ -6,7 +6,6 @@
 ## Go-Barber (Fullstack project)
 
 This is a full stack project covering backend, frontend and mobile application.
-The project were built in a TypeScript environment.
 
 See details about every project in their folders.
 
