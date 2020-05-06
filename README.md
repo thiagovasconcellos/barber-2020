@@ -1,6 +1,6 @@
-<p align="center">
+<div style="background-color: black;"><p align="center">
   <img width="200" height="120" src="https://i.ibb.co/MSqKC3y/logo.png" style="background-color: black;"/>
-</p>
+</p></div>
 
 ## Go-Barber (Fullstack project)
 
