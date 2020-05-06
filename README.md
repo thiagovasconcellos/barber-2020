@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="120" src="https://i.ibb.co/MSqKC3y/logo.png">
+  <img width="200" height="120" src="https://i.ibb.co/MSqKC3y/logo.png" style="background-color: black;"/>
 </p>
 
 ## Go-Barber (Fullstack project)
