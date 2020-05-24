@@ -1,8 +1,4 @@
-import path from 'path';
-import fs from 'fs';
 import { injectable, inject } from 'tsyringe';
-
-import uploadConfig from '@config/upload';
 
 import AppError from '@shared/errors/AppError';
 import IStorageProvider from '@shared/container/providers/StorageProvider/models/IStorageProvider';
@@ -36,7 +32,7 @@ class UpdateUserAvatarService {
       await this.storageProvider.deleteFile(user.avatar);
     }
 
-    const filename = this.storageProvider.saveFile(avatar_filename);
+    const filename = await this.storageProvider.saveFile(avatar_filename);
 
     user.avatar = filename;
     await this.usersRepository.save(user);
