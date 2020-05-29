@@ -10,7 +10,7 @@ export default class ForgotPasswordController {
       SendForgotPasswordEmailService,
     );
 
-    sendForgotPasswordEmail.execute({
+    await sendForgotPasswordEmail.execute({
       email,
     });
 
