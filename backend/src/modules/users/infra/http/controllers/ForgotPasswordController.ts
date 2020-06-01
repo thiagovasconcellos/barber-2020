@@ -14,6 +14,6 @@ export default class ForgotPasswordController {
       email,
     });
 
-    return response.status(204);
+    return response.status(204).send('Criado');
   }
 }
