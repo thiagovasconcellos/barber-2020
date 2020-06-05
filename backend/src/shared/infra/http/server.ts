@@ -1,4 +1,6 @@
 import 'reflect-metadata';
+import 'dotenv/config';
+
 import '@shared/container';
 
 import express, { Request, Response, NextFunction } from 'express';

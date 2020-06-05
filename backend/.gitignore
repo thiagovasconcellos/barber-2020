@@ -6,3 +6,5 @@ tmp/*
 /coverage
 s
 coverage
+.env
+ormconfig.json
