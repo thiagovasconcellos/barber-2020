@@ -1,3 +1,4 @@
+import './CacheProvider';
 import { container } from 'tsyringe';
 
 import IStorageProvider from './StorageProvider/models/IStorageProvider';
