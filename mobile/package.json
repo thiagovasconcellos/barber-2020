@@ -16,13 +16,13 @@
     "@unform/core": "^2.1.0",
     "@unform/mobile": "^2.1.0",
     "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "0.64.0",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-iphone-x-helper": "^1.2.1",
     "react-native-reanimated": "^1.8.0",
     "react-native-safe-area-context": "^0.7.3",
     "react-native-screens": "^2.7.0",
-    "react-native-vector-icons": "^6.6.0",
+    "react-native-vector-icons": "^6.7.0",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
