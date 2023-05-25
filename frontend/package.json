@@ -23,13 +23,16 @@
     "styled-components": "^5.1.0",
     "typescript": "~3.7.2",
     "uuidv4": "^6.0.8",
-    "yup": "^0.28.4"
+    "yup": "^0.28.4",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -62,5 +65,6 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "prettier": "^2.0.4"
-  }
+  },
+  "snyk": true
 }
